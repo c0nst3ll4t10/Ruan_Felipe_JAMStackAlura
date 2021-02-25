@@ -34,7 +34,7 @@ export default function Cover() {
           textAlign="center"
           margin="0"
         >
-          Portifólio
+          Portfólio
         </Text>
       </Grid.Container>
     </Box>
