@@ -52,4 +52,9 @@ export const typographyVariants = {
     fontWeight: '700',
     lineHeight: '38.4px',
   },
+  cardText: {
+    fontSize: '18px',
+    fontWeight: '400',
+    lineHeight: '21.6px',
+  },
 };

@@ -21,7 +21,7 @@ export default function Cover() {
       alignItems="center"
     >
       <Grid.Container
-        margin={{ xs: '310px 0', md: '271px 0' }}
+        margin={{ xs: '306px 0', md: '275px 0' }}
       >
         <Text
           variant="titleCover"

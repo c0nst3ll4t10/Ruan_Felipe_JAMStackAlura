@@ -128,8 +128,11 @@ const Col = styled.div`
   ${propToStyle('flexDirection')}
   ${propToStyle('marginBottom')}
   ${propToStyle('margin')}
+  ${propToStyle('padding')}
   ${propToStyle('flexFlow')}
   ${propToStyle('flex')}
+  ${propToStyle('width')}
+  ${propToStyle('height')}
 `;
 
 const Row = styled.div`
@@ -139,10 +142,12 @@ const Row = styled.div`
   margin-left: -16px;
   ${propToStyle('justifyContent')}
   ${propToStyle('flexDirection')}
-  ${propToStyle('height')}
+  ${propToStyle('width')}
   ${propToStyle('textAlign')}
   ${propToStyle('paddingTop')}
   ${propToStyle('margin')}
+  ${propToStyle('height')}
+  ${propToStyle('display')}
 `;
 
 Col.defaultProps = {
