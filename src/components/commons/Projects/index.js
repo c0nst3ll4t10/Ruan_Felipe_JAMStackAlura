@@ -9,7 +9,7 @@ import { Grid } from '../../layout/Grid';
 
 const Projects = () => (
   <WrapperProjects
-    backgroundImage="url(/images/BlueWaves.png)"
+    backgroundImage="url(/images/blueWaves.png)"
     backgroundSize="cover"
   >
     <Grid.Container
