@@ -1,14 +1,20 @@
-import PropTypes from 'prop-types'
-import styled  from 'styled-components'
+/* eslint-disable linebreak-style */
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable eol-last */
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import get from 'lodash/get';
-import { propToStyle } from '../../../theme/utils/propToStyle'
+import { propToStyle } from '../../../theme/utils/propToStyle';
 
 const TextBase = styled.span`
   ${(props) => props.theme.typographyVariants[props.variant]}
   color: ${(props) => get(props.theme, `palette.${props.color}`)};
   ${propToStyle('textAlign')}
   ${propToStyle('margin')}
-`
+`;
 
 const Text = ({
   tag, variant, children, ...props
@@ -20,17 +26,17 @@ const Text = ({
   >
     {children}
   </TextBase>
-)
+);
 
 Text.propType = {
   tag: PropTypes.string.isRequired,
   variant: PropTypes.string.isRequired,
   children: PropTypes.string.isRequired,
-}
+};
 
 Text.defaultProps = {
   tag: 'span',
   variant: 'paragraph1',
-}
+};
 
-export default Text
+export default Text;

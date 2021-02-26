@@ -1,3 +1,6 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable import/prefer-default-export */
+/* eslint-disable eol-last */
 import styled, { css } from 'styled-components';
 import { breakpointsMedia } from '../../../theme/utils/breakpointsMedia';
 import { propToStyle } from '../../../theme/utils/propToStyle';
@@ -31,9 +34,16 @@ const Container = styled.div`
   `,
   })}
   ${propToStyle('padding')}
+  ${propToStyle('margin')}
+  ${propToStyle('justifyContent')}
+  ${propToStyle('alignItems')}
+  ${propToStyle('flex')}
+  ${propToStyle('flexWrap')}
+  ${propToStyle('display')}
 `;
 
 const Col = styled.div`
+  ${propToStyle('display')}
   padding-right: 16px;
   padding-left: 16px;
   flex-basis: 0;
@@ -113,25 +123,35 @@ const Col = styled.div`
       }),
     });
   }}
-  ${propToStyle('display')}
   ${propToStyle('alignItems')}
   ${propToStyle('justifyContent')}
   ${propToStyle('flexDirection')}
   ${propToStyle('marginBottom')}
-`
+  ${propToStyle('margin')}
+  ${propToStyle('flexFlow')}
+  ${propToStyle('flex')}
+`;
+
+const Row = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -16px;
+  margin-left: -16px;
+  ${propToStyle('justifyContent')}
+  ${propToStyle('flexDirection')}
+  ${propToStyle('height')}
+  ${propToStyle('textAlign')}
+  ${propToStyle('paddingTop')}
+  ${propToStyle('margin')}
+`;
 
 Col.defaultProps = {
   value: {},
   offset: {},
-}
+};
 
 export const Grid = {
   Container,
-  Row: styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -16px;
-    margin-left: -16px;
-  `,
+  Row,
   Col,
-}
+};

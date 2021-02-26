@@ -1,5 +1,8 @@
-import { createGlobalStyle } from 'styled-components'
-import { normalize } from 'styled-normalize'
+/* eslint-disable linebreak-style */
+/* eslint-disable import/prefer-default-export */
+/* eslint-disable eol-last */
+import { createGlobalStyle } from 'styled-components';
+import { normalize } from 'styled-normalize';
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -15,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: ${({theme}) => theme.fontFamily};
+    font-family: ${({ theme }) => theme.fontFamily};
   }
 
   #__next {
@@ -23,4 +26,4 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
-`
+`;

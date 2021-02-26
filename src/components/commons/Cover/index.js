@@ -1,6 +1,10 @@
-import Text from "../../foundations/Text";
-import { Box } from "../../layout/Box";
-import { Grid } from "../../layout/Grid";
+/* eslint-disable linebreak-style */
+/* eslint-disable eol-last */
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable react/react-in-jsx-scope */
+import Text from '../../foundations/Text';
+import { Box } from '../../layout/Box';
+import { Grid } from '../../layout/Grid';
 
 export default function Cover() {
   return (
@@ -14,10 +18,11 @@ export default function Cover() {
       backgroundRepeat="no-repeat"
       backgroundPosition="center center"
       backgroundSize="cover"
-      maxHeight="917px"
       alignItems="center"
     >
-      <Grid.Container>
+      <Grid.Container
+        margin={{ xs: '310px 0', md: '271px 0' }}
+      >
         <Text
           variant="titleCover"
           tag="h1"
@@ -38,5 +43,5 @@ export default function Cover() {
         </Text>
       </Grid.Container>
     </Box>
-  ) 
-};
+  );
+}

@@ -1,4 +1,7 @@
-import { typographyVariants } from './typographyVariants.js'
+/* eslint-disable linebreak-style */
+/* eslint-disable import/extensions */
+/* eslint-disable eol-last */
+import { typographyVariants } from './typographyVariants.js';
 
 const palette = {
   background: {
@@ -28,16 +31,21 @@ const palette = {
   },
   footer: {
     main: {
-      color: '#120464'
+      color: '#120464',
     },
     icon: {
-      color: '#28039e'
-    }
+      color: '#28039e',
+    },
   },
   header: {
     main: {
-      color: '#8728e8'
-    }
+      color: '#8728e8',
+    },
+  },
+  projects: {
+    main: {
+      color: '#d68d6b',
+    },
   },
   tertiary: {
     main: {
@@ -49,7 +57,7 @@ const palette = {
     light: {},
     dark: {},
   },
-}
+};
 
 const breakpoints = {
   xs: 0,
@@ -66,4 +74,4 @@ export default {
   fontFamily: '\'Fira Sans Condensed\', sans-serif',
   borderRadius: '8px',
   transition: '200ms ease-in-out',
-}
+};
