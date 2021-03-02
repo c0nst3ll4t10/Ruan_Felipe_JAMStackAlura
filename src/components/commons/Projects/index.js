@@ -58,58 +58,6 @@ const Projects = () => (
           >
             <Card img="instalura" title="instalura" url="https://instalura-base-c0nst3ll4t10.vercel.app/" />
           </Grid.Col>
-          <Grid.Col
-            margin={{ xs: '0 0 64px', md: '0' }}
-          >
-            <Card img="instalura" title="instalura" url="https://instalura-base-c0nst3ll4t10.vercel.app/" />
-          </Grid.Col>
-          <Grid.Col
-            margin={{ xs: '0 0 64px', md: '0' }}
-          >
-            <Card img="instalura" title="instalura" url="https://instalura-base-c0nst3ll4t10.vercel.app/" />
-          </Grid.Col>
-        </Grid.Row>
-        <Grid.Row
-          display="flex"
-          textAlign="-webkit-center"
-          margin={{ xs: '0', md: '0 0 64px' }}
-        >
-          <Grid.Col
-            margin={{ xs: '0 0 64px', md: '0' }}
-          >
-            <Card img="instalura" title="instalura" url="https://instalura-base-c0nst3ll4t10.vercel.app/" />
-          </Grid.Col>
-          <Grid.Col
-            margin={{ xs: '0 0 64px', md: '0' }}
-          >
-            <Card img="instalura" title="instalura" url="https://instalura-base-c0nst3ll4t10.vercel.app/" />
-          </Grid.Col>
-          <Grid.Col
-            margin={{ xs: '0 0 64px', md: '0' }}
-          >
-            <Card img="instalura" title="instalura" url="https://instalura-base-c0nst3ll4t10.vercel.app/" />
-          </Grid.Col>
-        </Grid.Row>
-        <Grid.Row
-          display="flex"
-          textAlign="-webkit-center"
-          margin={{ xs: '0', md: '0 0 64px' }}
-        >
-          <Grid.Col
-            margin={{ xs: '0 0 64px', md: '0' }}
-          >
-            <Card img="instalura" title="instalura" url="https://instalura-base-c0nst3ll4t10.vercel.app/" />
-          </Grid.Col>
-          <Grid.Col
-            margin={{ xs: '0 0 64px', md: '0' }}
-          >
-            <Card img="instalura" title="instalura" url="https://instalura-base-c0nst3ll4t10.vercel.app/" />
-          </Grid.Col>
-          <Grid.Col
-            margin={{ xs: '0 0 64px', md: '0' }}
-          >
-            <Card img="instalura" title="instalura" url="https://instalura-base-c0nst3ll4t10.vercel.app/" />
-          </Grid.Col>
         </Grid.Row>
         {/* Destaque em desktop */}
         <Grid.Row
